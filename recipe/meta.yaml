@@ -1,5 +1,5 @@
 {% set name = "ipyvuetify" %}
-{% set version = "1.0.4" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cd97f9b7b790cefbf79962401d77941d14c6ed17813f9a1ff2f444851e516fbe
+  sha256: bcf3f5cac395d8806477782691bd1299354d02bbf07645019a1a5096b1987189
 
 build:
   noarch: python
