@@ -1,5 +1,5 @@
 {% set name = "ipyvuetify" %}
-{% set version = "1.1.1" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2e23701515ed1714d8d734eb94ed5b84d32fd96938d75d2bc8ef1396b3807e61
+  sha256: d18a23ffd7d0e8f18d8e1b18d99db41d139e5eb6223a609383a8464875aabb60
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -33,7 +33,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Jupyter widgets based on vuetify UI components'
+  summary: Jupyter widgets based on vuetify UI components
 
   description: |
     Jupyter widgets based on vuetify UI components  <https://vuetifyjs.com> which implement Google's 
