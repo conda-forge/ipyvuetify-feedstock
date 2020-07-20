@@ -5,7 +5,7 @@ Home: http://github.com/mariobuikhuizen/ipyvuetify
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Jupyter widgets based on vuetify UI components
 
