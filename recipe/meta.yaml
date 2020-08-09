@@ -22,7 +22,7 @@ requirements:
   run:
     - python
     - ipywidgets >=7.0.0
-    - ipyvue >=1.5,<2
+    - ipyvue >=1.4,<2
 
 test:
   imports:
