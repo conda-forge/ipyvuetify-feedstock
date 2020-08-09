@@ -1,5 +1,5 @@
 {% set name = "ipyvuetify" %}
-{% set version = "1.4.1" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: eb940d89fb7c877a3d42e08e7ae1d5cf8a501e059db165007687fdf648598b06
+  sha256: 5c311308d3ec9c92e48ab6ca021b5b51295e9e39de640f69827e30d5f03a244b
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
   run:
     - python
     - ipywidgets >=7.0.0
-    - ipyvue >=1.3.2,<2
+    - ipyvue >=1.4,<2
 
 test:
   imports:
