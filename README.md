@@ -5,9 +5,11 @@ Home: http://github.com/mariobuikhuizen/ipyvuetify
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ipyvuetify-feedstock/blob/master/LICENSE.txt)
 
 Summary: Jupyter widgets based on vuetify UI components
+
+Development: http://github.com/mariobuikhuizen/ipyvuetify
 
 Jupyter widgets based on vuetify UI components  <https://vuetifyjs.com> which implement Google's
 Material Design Spec <https://material.io/> with the Vue.js framework <https://vuejs.org/>.
