@@ -20,7 +20,7 @@ requirements:
     - setuptools
     - pip
   run:
-    - python
+    - python >=3.6
     - ipywidgets >=7.0.0
     - ipyvue >=1.5,<2
 
