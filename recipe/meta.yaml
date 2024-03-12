@@ -19,7 +19,7 @@ requirements:
     - python >=3.6
     - setuptools
     - pip
-    pip:
+    - pip:
       - pynpm
   run:
     - python >=3.6
