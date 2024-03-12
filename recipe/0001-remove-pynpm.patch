@@ -1,0 +1,23 @@
+From a5e5a2d9cf3f641a952233bfd2c8ca82f5f4c999 Mon Sep 17 00:00:00 2001
+From: Mario Buikhuizen <mariobuikhuizen@widgetti.io>
+Date: Tue, 12 Mar 2024 14:40:44 +0100
+Subject: [PATCH] patch: remove pynpm
+
+---
+ pyproject.toml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/pyproject.toml b/pyproject.toml
+index eef301b..8f14011 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -1,5 +1,5 @@
+ [build-system]
+-requires = ["jupyter_packaging~=0.7.9", "jupyterlab~=3.0", "setuptools>=40.8.0", "wheel", "pynpm"]
++requires = ["jupyter_packaging~=0.7.9", "jupyterlab~=3.0", "setuptools>=40.8.0", "wheel"]
+ build-backend = "setuptools.build_meta"
+
+ [project]
+--
+2.39.3 (Apple Git-145)
+
