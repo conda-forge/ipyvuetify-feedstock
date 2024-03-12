@@ -8,6 +8,8 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 300a8eeb0444b676950a01bcf145d8b0a94ba648b36ed3ea99e43dbb75159d4d
+  patches:
+    - 0001-build-only-import-pynpm-when-needed.patch
 
 build:
   noarch: python
