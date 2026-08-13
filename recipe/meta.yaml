@@ -1,13 +1,13 @@
 {% set name = "ipyvuetify" %}
-{% set version = "1.11.3" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3580afa76d9add4ae04ccb7fd57d4a0cf03a261705742e7137def3ebb65ac71d
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 265402700632d2c31257824cd266211cdbae755b80343a145881f97acdcb53ab
 
 build:
   noarch: python
